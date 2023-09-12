@@ -1,0 +1,101 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <title>highOld Game</title>
+      <!-- css stylesheet link -->
+      <link rel="stylesheet" href="highOldGame101.css">
+      
+    </head>
+
+    <body>
+      <p class="gameName">highOld Game v.101</p>
+      <!-- <span class="notice">Pick Your Task </span> <br><br> -->
+
+      <div class="field">
+
+        <div class="pickit">
+          
+          <div class="hup">
+            <button class="buttons" onClick="
+              wish = 'bh';
+              pickyo();                               
+            ">Black Hike</button>               
+            <img class="picta" src="files/metal01.jpg" alt="">         
+          </div>
+  
+          <div class="hup">
+            <button class="buttons" onClick="
+              wish = 'gt';
+              pickyo();
+            ">Grey Trails</button>
+            <img class="picta" src="files/metal02.jpeg" alt="">
+          </div>
+  
+          <div class="hup">
+            <button class="buttons" onClick="
+              wish = 'sf';
+              pickyo();
+            ">Silver Falls</button>
+            <img class="picta" src="files/metal03.jpg" alt="">
+          </div>  
+        </div> 
+        
+        <div class="control">
+
+          <div class="button-field">
+
+            <div class="basic-button">
+
+              <div class="up-down">
+                <button class="up-button" onClick = "
+                  upFunk();
+                ">Up</button>
+
+                <button class="down-button" onClick = "
+                  downFunk();
+                ">Down</button>
+              </div>
+
+              <div class="click">
+                <button class="cb" 
+                  onClick = "
+                    clickomo();
+                  ">Cl!ck</button>
+              </div>  
+            </div>      
+
+            <div class="alt-button"> 
+              <button class="reset-button"
+                onClick = "
+                  reseta();
+                "
+              >Reset</button>             
+            </div>
+
+          </div>
+
+          <div class="console">
+            
+            <div class="update">
+              Your options will appear here. Have patience pls my dear. 
+            </div>
+            
+            <div class="options">
+              <div class="option-a">option a</div>
+              <div class="option-b">option b</div>
+              <div class="option-c">option c</div>
+            </div>            
+
+          </div>
+        </div>    
+
+      </div>                   
+      
+      <div class="display">
+        Final Goal...
+      </div>
+
+      <script src="highOldGame101.js"> </script>
+
+    </body>
+  </html>

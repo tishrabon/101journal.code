@@ -1,0 +1,192 @@
+
+body {
+  padding: 20px;
+  background-color:darkred;
+  font-family: veteran typewriter;
+  font-size: 18px;
+}        
+.gameName , .notice {
+  color: gold;
+  font-size: 30px;
+}   
+.notice {
+  font-size: 20px;
+  margin-left: 20px;
+}     
+.field {         
+  height: 400px;
+  width: 500px;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;          
+}
+
+.buttons {
+  color: darkred;
+  border: none;
+  border-radius: 5px;
+  background-color: gold;
+  position: absolute;
+  font-size: 20px;
+  /* font-weight: bolder; */
+  cursor: pointer;  
+          
+}
+.picta {
+  height: 115px;
+  width: 115px;
+  border-radius: 5px;
+}
+.pickit {
+  flex: 1;
+  color: green;
+  display: flex; 
+  justify-content: center;                   
+  /* background-color: bisque;  */
+  margin: 20px;      
+  margin-bottom: 0px;           
+}
+.hup {
+  background-color: darkred;          
+  margin: 7px;          
+  height: 120px; 
+  width: 120px;   
+  border-radius: 6px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 7px black;
+  position: relative;
+  cursor: grab;
+}
+.control {
+  flex: 2;
+  color: rgb(31, 241, 31);
+  display: flex;          
+  /* background-color: pink; */
+  margin: 20px;          
+}
+.button-field {       
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  margin-right: 10px;
+  padding: 10px;
+}
+.basic-button {
+  flex: 2;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red;
+  border-radius: 10px; */
+  margin-bottom: 5px;
+}
+.alt-button {
+  /* border: 1px solid red;
+  border-radius: 10px; */
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.up-down {        
+  flex: 2;
+  display: flex;
+  flex-direction: column;          
+}
+.click {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.up-button, .down-button {
+  color: gold;
+  background-color:darkred;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+}
+.cb {
+  color: gold;
+  background-color:darkred;
+  height: 80px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  cursor: grab;
+}
+.reset-button {
+  border: none;
+  height: 25px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: darkred;
+  color: gold;
+}
+.up-button, .down-button, .reset-button {
+  cursor: pointer;
+}
+.console {
+  flex: 3;
+  color: gold;
+  font-size: 16px;
+  background-color:darkred;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.option-a, .option-b, .option-c {
+  color: goldenrod;
+  border: 1px solid red;
+  border: none;
+  border-radius: 5px;          
+  margin: 5px;
+  padding: 5px;
+}
+.mark-op {
+  color: gold;
+  border: none;
+  background-color: brown;
+  margin: 5px;
+  padding: 5px;
+}
+/* .option-c {
+  background-color: brown;
+  color: gold;
+} */
+.display {          
+  height: 120px;
+  width: 180px;
+  border-radius: 10px;          
+  margin: 20px;
+  margin-left: 150px;
+  background-color: brown;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 3px 5px 5px rgba(255, 217, 0, 0.6);  */
+}
+.walton {
+  height: 120px;
+  width: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+}      
